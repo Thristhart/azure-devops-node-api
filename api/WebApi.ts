@@ -36,7 +36,7 @@ import * as rm from 'typed-rest-client/RestClient';
 import vsom = require('./VsoClient');
 import lim = require("./interfaces/LocationsInterfaces");
 
-import crypto = require('crypto');
+import crypto = require('crypto-browserify');
 import fs = require('fs');
 import os = require('os');
 import url = require('url');
